@@ -1,0 +1,61 @@
+/* Over all Css */
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  border: 1px solid lightblue;
+  width: 30%;
+  align-self: auto;
+}
+
+.title {
+  border: 1px dotted lightgrey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box img {
+  display: block;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.available {
+  background-color: darkgrey;
+  color: yellow;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.four {
+  margin-top: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+h3,
+h6 {
+  margin: 0;
+}
+
+
